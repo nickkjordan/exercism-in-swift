@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013DAEB81ADD768500FB99CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013DAEB71ADD768500FB99CB /* AppDelegate.swift */; };
+		013DAEBA1ADD768500FB99CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013DAEB91ADD768500FB99CB /* ViewController.swift */; };
+		013DAEBD1ADD768500FB99CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013DAEBB1ADD768500FB99CB /* Main.storyboard */; };
+		013DAEBF1ADD768500FB99CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013DAEBE1ADD768500FB99CB /* Images.xcassets */; };
+		013DAEC21ADD768500FB99CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013DAEC01ADD768500FB99CB /* LaunchScreen.xib */; };
+		013DAECE1ADD768500FB99CB /* HammingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013DAECD1ADD768500FB99CB /* HammingTests.swift */; };
+		013DAED81ADD76BF00FB99CB /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013DAED71ADD76BF00FB99CB /* Hamming.swift */; };
+		013DAED91ADD76BF00FB99CB /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013DAED71ADD76BF00FB99CB /* Hamming.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		013DAEC81ADD768500FB99CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013DAEAA1ADD768500FB99CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013DAEB11ADD768500FB99CB;
+			remoteInfo = Hamming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013DAEB21ADD768500FB99CB /* Hamming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013DAEB61ADD768500FB99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013DAEB71ADD768500FB99CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		013DAEB91ADD768500FB99CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		013DAEBC1ADD768500FB99CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013DAEBE1ADD768500FB99CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		013DAEC11ADD768500FB99CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		013DAEC71ADD768500FB99CB /* HammingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HammingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013DAECC1ADD768500FB99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013DAECD1ADD768500FB99CB /* HammingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingTests.swift; sourceTree = "<group>"; };
+		013DAED71ADD76BF00FB99CB /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013DAEAF1ADD768500FB99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013DAEC41ADD768500FB99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013DAEA91ADD768500FB99CB = {
+			isa = PBXGroup;
+			children = (
+				013DAEB41ADD768500FB99CB /* Hamming */,
+				013DAECA1ADD768500FB99CB /* HammingTests */,
+				013DAEB31ADD768500FB99CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013DAEB31ADD768500FB99CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013DAEB21ADD768500FB99CB /* Hamming.app */,
+				013DAEC71ADD768500FB99CB /* HammingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013DAEB41ADD768500FB99CB /* Hamming */ = {
+			isa = PBXGroup;
+			children = (
+				013DAED71ADD76BF00FB99CB /* Hamming.swift */,
+				013DAEB71ADD768500FB99CB /* AppDelegate.swift */,
+				013DAEB91ADD768500FB99CB /* ViewController.swift */,
+				013DAEBB1ADD768500FB99CB /* Main.storyboard */,
+				013DAEBE1ADD768500FB99CB /* Images.xcassets */,
+				013DAEC01ADD768500FB99CB /* LaunchScreen.xib */,
+				013DAEB51ADD768500FB99CB /* Supporting Files */,
+			);
+			path = Hamming;
+			sourceTree = "<group>";
+		};
+		013DAEB51ADD768500FB99CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013DAEB61ADD768500FB99CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		013DAECA1ADD768500FB99CB /* HammingTests */ = {
+			isa = PBXGroup;
+			children = (
+				013DAECD1ADD768500FB99CB /* HammingTests.swift */,
+				013DAECB1ADD768500FB99CB /* Supporting Files */,
+			);
+			path = HammingTests;
+			sourceTree = "<group>";
+		};
+		013DAECB1ADD768500FB99CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013DAECC1ADD768500FB99CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013DAEB11ADD768500FB99CB /* Hamming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013DAED11ADD768500FB99CB /* Build configuration list for PBXNativeTarget "Hamming" */;
+			buildPhases = (
+				013DAEAE1ADD768500FB99CB /* Sources */,
+				013DAEAF1ADD768500FB99CB /* Frameworks */,
+				013DAEB01ADD768500FB99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hamming;
+			productName = Hamming;
+			productReference = 013DAEB21ADD768500FB99CB /* Hamming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		013DAEC61ADD768500FB99CB /* HammingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013DAED41ADD768500FB99CB /* Build configuration list for PBXNativeTarget "HammingTests" */;
+			buildPhases = (
+				013DAEC31ADD768500FB99CB /* Sources */,
+				013DAEC41ADD768500FB99CB /* Frameworks */,
+				013DAEC51ADD768500FB99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013DAEC91ADD768500FB99CB /* PBXTargetDependency */,
+			);
+			name = HammingTests;
+			productName = HammingTests;
+			productReference = 013DAEC71ADD768500FB99CB /* HammingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013DAEAA1ADD768500FB99CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = exercism;
+				TargetAttributes = {
+					013DAEB11ADD768500FB99CB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					013DAEC61ADD768500FB99CB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 013DAEB11ADD768500FB99CB;
+					};
+				};
+			};
+			buildConfigurationList = 013DAEAD1ADD768500FB99CB /* Build configuration list for PBXProject "Hamming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013DAEA91ADD768500FB99CB;
+			productRefGroup = 013DAEB31ADD768500FB99CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013DAEB11ADD768500FB99CB /* Hamming */,
+				013DAEC61ADD768500FB99CB /* HammingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013DAEB01ADD768500FB99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013DAEBD1ADD768500FB99CB /* Main.storyboard in Resources */,
+				013DAEC21ADD768500FB99CB /* LaunchScreen.xib in Resources */,
+				013DAEBF1ADD768500FB99CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013DAEC51ADD768500FB99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013DAEAE1ADD768500FB99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013DAEBA1ADD768500FB99CB /* ViewController.swift in Sources */,
+				013DAEB81ADD768500FB99CB /* AppDelegate.swift in Sources */,
+				013DAED81ADD76BF00FB99CB /* Hamming.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013DAEC31ADD768500FB99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013DAECE1ADD768500FB99CB /* HammingTests.swift in Sources */,
+				013DAED91ADD76BF00FB99CB /* Hamming.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		013DAEC91ADD768500FB99CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013DAEB11ADD768500FB99CB /* Hamming */;
+			targetProxy = 013DAEC81ADD768500FB99CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		013DAEBB1ADD768500FB99CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013DAEBC1ADD768500FB99CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		013DAEC01ADD768500FB99CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013DAEC11ADD768500FB99CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013DAECF1ADD768500FB99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		013DAED01ADD768500FB99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013DAED21ADD768500FB99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hamming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		013DAED31ADD768500FB99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hamming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		013DAED51ADD768500FB99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HammingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hamming.app/Hamming";
+			};
+			name = Debug;
+		};
+		013DAED61ADD768500FB99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HammingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hamming.app/Hamming";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013DAEAD1ADD768500FB99CB /* Build configuration list for PBXProject "Hamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013DAECF1ADD768500FB99CB /* Debug */,
+				013DAED01ADD768500FB99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013DAED11ADD768500FB99CB /* Build configuration list for PBXNativeTarget "Hamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013DAED21ADD768500FB99CB /* Debug */,
+				013DAED31ADD768500FB99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		013DAED41ADD768500FB99CB /* Build configuration list for PBXNativeTarget "HammingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013DAED51ADD768500FB99CB /* Debug */,
+				013DAED61ADD768500FB99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013DAEAA1ADD768500FB99CB /* Project object */;
+}
