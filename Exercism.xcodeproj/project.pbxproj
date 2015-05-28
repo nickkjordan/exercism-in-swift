@@ -78,8 +78,10 @@
 		012E668F1B1648AD003AA1EC /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E66341B164755003AA1EC /* Triangle.swift */; };
 		012E66901B1648AD003AA1EC /* TwelveDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E66381B164755003AA1EC /* TwelveDays.swift */; };
 		012E66911B1648AD003AA1EC /* WordCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E663C1B164755003AA1EC /* WordCount.swift */; };
+		013752C11B17578000A40B70 /* RaindropsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013752BF1B17578000A40B70 /* RaindropsTest.swift */; };
+		013752C41B17579800A40B70 /* Raindrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013752C31B17579800A40B70 /* Raindrops.swift */; };
+		013752C51B17579800A40B70 /* Raindrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013752C31B17579800A40B70 /* Raindrops.swift */; };
 		0169A4901B175148001FC46E /* PrimeFactorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A48E1B175148001FC46E /* PrimeFactorsTest.swift */; };
-		0169A4911B175148001FC46E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0169A48F1B175148001FC46E /* README.md */; };
 		0169A4931B175161001FC46E /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A4921B175161001FC46E /* PrimeFactors.swift */; };
 		0169A4941B175161001FC46E /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A4921B175161001FC46E /* PrimeFactors.swift */; };
 /* End PBXBuildFile section */
@@ -170,6 +172,9 @@
 		012E663B1B164755003AA1EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		012E663C1B164755003AA1EC /* WordCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WordCount.swift; path = "../word-count/WordCount.swift"; sourceTree = "<group>"; };
 		012E663D1B164755003AA1EC /* WordCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTest.swift; sourceTree = "<group>"; };
+		013752BF1B17578000A40B70 /* RaindropsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaindropsTest.swift; sourceTree = "<group>"; };
+		013752C01B17578000A40B70 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		013752C31B17579800A40B70 /* Raindrops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Raindrops.swift; path = raindrops/Raindrops.swift; sourceTree = SOURCE_ROOT; };
 		0169A48E1B175148001FC46E /* PrimeFactorsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactorsTest.swift; sourceTree = "<group>"; };
 		0169A48F1B175148001FC46E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0169A4921B175161001FC46E /* PrimeFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimeFactors.swift; path = "prime-factors/PrimeFactors.swift"; sourceTree = SOURCE_ROOT; };
@@ -234,6 +239,8 @@
 				012E66131B164755003AA1EC /* NucleotideCount.swift */,
 				012E66171B164755003AA1EC /* PerfectNumbers.swift */,
 				012E661B1B164755003AA1EC /* PhoneNumber.swift */,
+				0169A4921B175161001FC46E /* PrimeFactors.swift */,
+				013752C31B17579800A40B70 /* Raindrops.swift */,
 				012E66201B164755003AA1EC /* RobotName.swift */,
 				012E66241B164755003AA1EC /* RomanNumerals.swift */,
 				012E66281B164755003AA1EC /* ScrabbleScore.swift */,
@@ -242,7 +249,6 @@
 				012E66341B164755003AA1EC /* Triangle.swift */,
 				012E66381B164755003AA1EC /* TwelveDays.swift */,
 				012E663C1B164755003AA1EC /* WordCount.swift */,
-				0169A4921B175161001FC46E /* PrimeFactors.swift */,
 			);
 			path = Exercism;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 				012E66161B164755003AA1EC /* perfect-numbers */,
 				012E661A1B164755003AA1EC /* phone-number */,
 				0169A48D1B175148001FC46E /* prime-factors */,
+				013752BE1B17578000A40B70 /* raindrops */,
 				012E661E1B164755003AA1EC /* robot-name */,
 				012E66221B164755003AA1EC /* roman-numerals */,
 				012E66261B164755003AA1EC /* scrabble-score */,
@@ -492,6 +499,15 @@
 			path = "word-count";
 			sourceTree = SOURCE_ROOT;
 		};
+		013752BE1B17578000A40B70 /* raindrops */ = {
+			isa = PBXGroup;
+			children = (
+				013752BF1B17578000A40B70 /* RaindropsTest.swift */,
+				013752C01B17578000A40B70 /* README.md */,
+			);
+			path = raindrops;
+			sourceTree = SOURCE_ROOT;
+		};
 		0169A48D1B175148001FC46E /* prime-factors */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,6 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013752C41B17579800A40B70 /* Raindrops.swift in Sources */,
 				012E66841B1648AD003AA1EC /* Hamming.swift in Sources */,
 				012E65E81B164534003AA1EC /* Binary.swift in Sources */,
 				012E66811B1648AD003AA1EC /* ETL.swift in Sources */,
@@ -641,7 +658,6 @@
 				012E66731B164755003AA1EC /* SumOfMultiplesTest.swift in Sources */,
 				012E66661B164755003AA1EC /* RobotName.swift in Sources */,
 				012E66721B164755003AA1EC /* SumOfMultiples.swift in Sources */,
-				0169A4911B175148001FC46E /* README.md in Sources */,
 				012E666D1B164755003AA1EC /* ScrabbleScoreTest.swift in Sources */,
 				012E665D1B164755003AA1EC /* NucleotideCountTest.swift in Sources */,
 				012E66471B164755003AA1EC /* Bob.swift in Sources */,
@@ -665,8 +681,10 @@
 				012E66481B164755003AA1EC /* BobTest.swift in Sources */,
 				012E66441B164755003AA1EC /* Anagram.swift in Sources */,
 				012E663F1B164755003AA1EC /* AccumulateTest.swift in Sources */,
+				013752C11B17578000A40B70 /* RaindropsTest.swift in Sources */,
 				012E664D1B164755003AA1EC /* Gigasecond.swift in Sources */,
 				0169A4901B175148001FC46E /* PrimeFactorsTest.swift in Sources */,
+				013752C51B17579800A40B70 /* Raindrops.swift in Sources */,
 				012E665F1B164755003AA1EC /* PerfectNumbers.swift in Sources */,
 				0169A4941B175161001FC46E /* PrimeFactors.swift in Sources */,
 				012E66591B164755003AA1EC /* Meetup.swift in Sources */,

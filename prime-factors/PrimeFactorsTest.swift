@@ -1,7 +1,7 @@
 import XCTest
 
 
-class BlankTest: XCTestCase {
+class PrimeFactorsTest: XCTestCase {
     
     func test1() {
         XCTAssertEqual([], PrimeFactors.For(1))
