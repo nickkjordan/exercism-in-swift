@@ -1,22 +1,26 @@
-import Foundation
-
 class GradeSchool {
-    private(set) var db = [Int: Array<String>]()
+    private(set) var db = [Int: [String]]()
     
     func addStudent(name: String, grade: Int) {
         let updatedGrade = studentsInGrade(grade) + [name]
         db.updateValue(updatedGrade, forKey: grade)
     }
     
-    func studentsInGrade(grade: Int) -> Array<String> {
+    func studentsInGrade(grade: Int) -> [String] {
         return db[grade] ?? []
     }
     
-    func sortedRoster() -> Dictionary<Int, Array<String>> {
-        var sortedRoster = db
-        for key in db.keys.array {
-            sortedRoster.updateValue(sortedRoster[key]!.sorted(<), forKey: key)
+    func sortedRoster() -> [Int: [String]] {
+        return db.map { $0.sorted(<) }
+    }
+}
+
+extension Dictionary {
+    func map(f: Value -> Value) -> [Key: Value] {
+        var result = [Key: Value]()
+        for (key, arr) in self {
+            result.updateValue(f(arr), forKey: key)
         }
-        return sortedRoster
+        return result
     }
 }
