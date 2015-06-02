@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01042D041B18B7E000C59998 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 01042D021B18B7E000C59998 /* README.md */; };
 		01042D051B18B7E000C59998 /* StrainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01042D031B18B7E000C59998 /* StrainTest.swift */; };
 		01042D071B18B7F700C59998 /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01042D061B18B7F700C59998 /* Strain.swift */; };
 		01042D081B18B7F700C59998 /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01042D061B18B7F700C59998 /* Strain.swift */; };
 		01042D0D1B18BFE300C59998 /* AtbashTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01042D0A1B18BFE300C59998 /* AtbashTest.swift */; };
-		01042D0F1B18BFE300C59998 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 01042D0B1B18BFE300C59998 /* README.md */; };
 		01042D111B18C00800C59998 /* AtbashCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01042D101B18C00800C59998 /* AtbashCipher.swift */; };
 		01042D121B18C00800C59998 /* AtbashCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01042D101B18C00800C59998 /* AtbashCipher.swift */; };
 		012E65BC1B16349E003AA1EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E65BB1B16349E003AA1EC /* AppDelegate.swift */; };
@@ -92,6 +90,12 @@
 		0169A4901B175148001FC46E /* PrimeFactorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A48E1B175148001FC46E /* PrimeFactorsTest.swift */; };
 		0169A4931B175161001FC46E /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A4921B175161001FC46E /* PrimeFactors.swift */; };
 		0169A4941B175161001FC46E /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A4921B175161001FC46E /* PrimeFactors.swift */; };
+		017963441B1DFD890036C714 /* TrinaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017963421B1DFD890036C714 /* TrinaryTest.swift */; };
+		017963461B1DFDB40036C714 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017963451B1DFDB40036C714 /* Trinary.swift */; };
+		017963471B1DFDB40036C714 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017963451B1DFDB40036C714 /* Trinary.swift */; };
+		01C2FCEF1B1CE24E00143BC4 /* CryptoSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2FCED1B1CE24E00143BC4 /* CryptoSquareTest.swift */; };
+		01C2FCF21B1CE26B00143BC4 /* CryptoSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2FCF11B1CE26B00143BC4 /* CryptoSquare.swift */; };
+		01C2FCF31B1CE26B00143BC4 /* CryptoSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2FCF11B1CE26B00143BC4 /* CryptoSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +196,12 @@
 		0169A48E1B175148001FC46E /* PrimeFactorsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactorsTest.swift; sourceTree = "<group>"; };
 		0169A48F1B175148001FC46E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0169A4921B175161001FC46E /* PrimeFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimeFactors.swift; path = "prime-factors/PrimeFactors.swift"; sourceTree = SOURCE_ROOT; };
+		017963411B1DFD890036C714 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		017963421B1DFD890036C714 /* TrinaryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrinaryTest.swift; sourceTree = "<group>"; };
+		017963451B1DFDB40036C714 /* Trinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trinary.swift; path = trinary/Trinary.swift; sourceTree = SOURCE_ROOT; };
+		01C2FCED1B1CE24E00143BC4 /* CryptoSquareTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSquareTest.swift; sourceTree = "<group>"; };
+		01C2FCEE1B1CE24E00143BC4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		01C2FCF11B1CE26B00143BC4 /* CryptoSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoSquare.swift; path = "crypto-square/CryptoSquare.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +273,7 @@
 				01042D101B18C00800C59998 /* AtbashCipher.swift */,
 				012E65E71B164534003AA1EC /* Binary.swift */,
 				012E65F71B164755003AA1EC /* Bob.swift */,
+				01C2FCF11B1CE26B00143BC4 /* CryptoSquare.swift */,
 				012E65FB1B164755003AA1EC /* ETL.swift */,
 				012E65FF1B164755003AA1EC /* Gigasecond.swift */,
 				012E66031B164755003AA1EC /* GradeSchool.swift */,
@@ -283,6 +294,7 @@
 				012E66341B164755003AA1EC /* Triangle.swift */,
 				012E66381B164755003AA1EC /* TwelveDays.swift */,
 				012E663C1B164755003AA1EC /* WordCount.swift */,
+				017963451B1DFDB40036C714 /* Trinary.swift */,
 			);
 			path = Exercism;
 			sourceTree = "<group>";
@@ -304,6 +316,7 @@
 				01042D091B18BFE300C59998 /* atbash-cipher */,
 				012E65DB1B1634CB003AA1EC /* binary */,
 				012E65F61B164755003AA1EC /* bob */,
+				01C2FCEC1B1CE24E00143BC4 /* crypto-square */,
 				012E65FA1B164755003AA1EC /* etl */,
 				012E65FE1B164755003AA1EC /* gigasecond */,
 				012E66021B164755003AA1EC /* grade-school */,
@@ -322,6 +335,7 @@
 				01042D011B18B7E000C59998 /* strain */,
 				012E662E1B164755003AA1EC /* sum-of-multiples */,
 				012E66321B164755003AA1EC /* triangle */,
+				017963401B1DFD890036C714 /* trinary */,
 				012E66361B164755003AA1EC /* twelve-days */,
 				012E663A1B164755003AA1EC /* word-count */,
 				012E65CF1B16349E003AA1EC /* Supporting Files */,
@@ -553,6 +567,24 @@
 			path = "prime-factors";
 			sourceTree = SOURCE_ROOT;
 		};
+		017963401B1DFD890036C714 /* trinary */ = {
+			isa = PBXGroup;
+			children = (
+				017963411B1DFD890036C714 /* README.md */,
+				017963421B1DFD890036C714 /* TrinaryTest.swift */,
+			);
+			path = trinary;
+			sourceTree = SOURCE_ROOT;
+		};
+		01C2FCEC1B1CE24E00143BC4 /* crypto-square */ = {
+			isa = PBXGroup;
+			children = (
+				01C2FCED1B1CE24E00143BC4 /* CryptoSquareTest.swift */,
+				01C2FCEE1B1CE24E00143BC4 /* README.md */,
+			);
+			path = "crypto-square";
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -668,6 +700,7 @@
 				01042D071B18B7F700C59998 /* Strain.swift in Sources */,
 				012E66831B1648AD003AA1EC /* GradeSchool.swift in Sources */,
 				012E667F1B1648AD003AA1EC /* Anagram.swift in Sources */,
+				017963461B1DFDB40036C714 /* Trinary.swift in Sources */,
 				01042D111B18C00800C59998 /* AtbashCipher.swift in Sources */,
 				012E668A1B1648AD003AA1EC /* RobotName.swift in Sources */,
 				012E66901B1648AD003AA1EC /* TwelveDays.swift in Sources */,
@@ -680,6 +713,7 @@
 				012E66861B1648AD003AA1EC /* Meetup.swift in Sources */,
 				012E667D1B1648AD003AA1EC /* Accumulate.swift in Sources */,
 				012E668D1B1648AD003AA1EC /* SpaceAge.swift in Sources */,
+				01C2FCF21B1CE26B00143BC4 /* CryptoSquare.swift in Sources */,
 				012E66891B1648AD003AA1EC /* PhoneNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -701,18 +735,17 @@
 				012E665D1B164755003AA1EC /* NucleotideCountTest.swift in Sources */,
 				01042D121B18C00800C59998 /* AtbashCipher.swift in Sources */,
 				012E66471B164755003AA1EC /* Bob.swift in Sources */,
-				01042D0F1B18BFE300C59998 /* README.md in Sources */,
 				012E667B1B164755003AA1EC /* WordCount.swift in Sources */,
 				012E66621B164755003AA1EC /* PhoneNumber.swift in Sources */,
 				012E66411B164755003AA1EC /* Allergies.swift in Sources */,
 				012E66701B164755003AA1EC /* SpaceAgeTest.swift in Sources */,
 				012E66781B164755003AA1EC /* TwelveDays.swift in Sources */,
 				012E66791B164755003AA1EC /* TwelveDaysTest.swift in Sources */,
-				01042D041B18B7E000C59998 /* README.md in Sources */,
 				012E664B1B164755003AA1EC /* EtlTest.swift in Sources */,
 				012E66601B164755003AA1EC /* PerfectNumbersTest.swift in Sources */,
 				012E65E91B164534003AA1EC /* Binary.swift in Sources */,
 				012E666F1B164755003AA1EC /* SpaceAge.swift in Sources */,
+				017963441B1DFD890036C714 /* TrinaryTest.swift in Sources */,
 				012E66751B164755003AA1EC /* Triangle.swift in Sources */,
 				012E666A1B164755003AA1EC /* RomanNumeralsTest.swift in Sources */,
 				012E664E1B164755003AA1EC /* GigasecondTest.swift in Sources */,
@@ -727,7 +760,10 @@
 				01042D0D1B18BFE300C59998 /* AtbashTest.swift in Sources */,
 				013752C11B17578000A40B70 /* RaindropsTest.swift in Sources */,
 				012E664D1B164755003AA1EC /* Gigasecond.swift in Sources */,
+				01C2FCEF1B1CE24E00143BC4 /* CryptoSquareTest.swift in Sources */,
 				0169A4901B175148001FC46E /* PrimeFactorsTest.swift in Sources */,
+				01C2FCF31B1CE26B00143BC4 /* CryptoSquare.swift in Sources */,
+				017963471B1DFDB40036C714 /* Trinary.swift in Sources */,
 				013752C51B17579800A40B70 /* Raindrops.swift in Sources */,
 				012E665F1B164755003AA1EC /* PerfectNumbers.swift in Sources */,
 				0169A4941B175161001FC46E /* PrimeFactors.swift in Sources */,

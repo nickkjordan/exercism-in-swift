@@ -1,35 +1,41 @@
 import Foundation
 
-let letterSet = NSCharacterSet.letterCharacterSet()
-
 struct Atbash {
     
     static func encode(var ciph: String) -> String {
         if ciph.isEmpty { return "" }
         else {
-            var response = ""
-            var count = 0
-            for letter in ciph {
-                let strLetter = String(letter)
-                if strLetter.isInSet(letterSet) {
-                    countUpdate(&count, response: &response)
-                    response += strLetter.cipher();
-                } else if strLetter.toInt() != nil {
-                    countUpdate(&count, response: &response)
-                    response += strLetter
-                }
-            }
-            return response
+            return Array(ciph).map { self.encodeChar($0) }
+                .filter { !$0.isEmpty }
+                .reduce("") { $0 + self.addWhitespace(toString: $0) + $1 }
         }
     }
     
-    static func countUpdate(inout count: Int, inout response: String) {
-        if count % 5 == 0 && count > 0 { response += " " }
-        count++
+    static func encodeChar(char: Character) -> String {
+        let stringChar = String(char)
+        
+        if stringChar.isInSet(.letterCharacterSet()) {
+            return stringChar.cipher()
+        } else if stringChar.toInt() != nil {
+            return  stringChar
+        }
+        return ""
+    }
+    
+    static func addWhitespace(toString str: String) -> String {
+        let count = str.countExcludingWhitespace
+        let addWhitespace = count % 5 == 0 && count > 0 && !str.hasSuffix(" ")
+        return addWhitespace ? " " : ""
     }
 }
 
-extension String {
+private extension String {
+    var countExcludingWhitespace: Int {
+        let minusWhitespace = self.componentsSeparatedByCharactersInSet(.whitespaceCharacterSet())
+            .reduce("", combine: +)
+        return count(minusWhitespace)
+    }
+    
     func isInSet(set: NSCharacterSet) -> Bool {
         return self.rangeOfCharacterFromSet(set) != nil
     }
@@ -40,15 +46,15 @@ extension String {
         let value = unicodeScalar.removeAtIndex(unicodeScalar.startIndex).value
         switch value {
         case let x where x > 96 && x < 110:
-            return stringFrom((110 + (109 - x)))
+            return stringFromUInt((110 + (109 - x)))
         case let x where x > 109 && x < 123:
-            return stringFrom((109 - (value - 110)))
+            return stringFromUInt((109 - (value - 110)))
         default:
             return ""
         }
     }
     
-    func stringFrom(input: UInt32) -> String {
+    func stringFromUInt(input: UInt32) -> String {
         return String((UnicodeScalar(input)))
     }
 }
