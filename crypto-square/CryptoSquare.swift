@@ -12,10 +12,10 @@ struct Crypto {
     }
     
     var size: Int {
-        let s = count(normalizedString())
+        let length = count(normalizedString())
         var size = 0
         do { size++
-        } while size*size < s
+        } while size*size < length
         
         return size
     }
