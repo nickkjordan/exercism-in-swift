@@ -90,16 +90,27 @@
 		013752C11B17578000A40B70 /* RaindropsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013752BF1B17578000A40B70 /* RaindropsTest.swift */; };
 		013752C41B17579800A40B70 /* Raindrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013752C31B17579800A40B70 /* Raindrops.swift */; };
 		013752C51B17579800A40B70 /* Raindrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013752C31B17579800A40B70 /* Raindrops.swift */; };
+		0144CE301B23C83A009D8DBA /* SeriesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144CE2E1B23C83A009D8DBA /* SeriesTest.swift */; };
+		0144CE321B23C853009D8DBA /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144CE311B23C853009D8DBA /* Series.swift */; };
+		0144CE331B23C853009D8DBA /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144CE311B23C853009D8DBA /* Series.swift */; };
+		015E43CF1B24A905000BA48B /* PigLatinTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E43CD1B24A905000BA48B /* PigLatinTest.swift */; };
+		015E43D21B24A919000BA48B /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E43D11B24A919000BA48B /* PigLatin.swift */; };
+		015E43D31B24A919000BA48B /* PigLatin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E43D11B24A919000BA48B /* PigLatin.swift */; };
+		0161BB681B209B1100E0636F /* OctalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161BB661B209B1100E0636F /* OctalTest.swift */; };
+		0161BB6B1B209B2A00E0636F /* Octal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161BB6A1B209B2A00E0636F /* Octal.swift */; };
+		0161BB6C1B209B2A00E0636F /* Octal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0161BB6A1B209B2A00E0636F /* Octal.swift */; };
 		0169A4901B175148001FC46E /* PrimeFactorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A48E1B175148001FC46E /* PrimeFactorsTest.swift */; };
 		0169A4931B175161001FC46E /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A4921B175161001FC46E /* PrimeFactors.swift */; };
 		0169A4941B175161001FC46E /* PrimeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169A4921B175161001FC46E /* PrimeFactors.swift */; };
-		0171C2481B1F4C5D00CD163A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0171C2461B1F4C5D00CD163A /* README.md */; };
 		0171C2491B1F4C5D00CD163A /* SieveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171C2471B1F4C5D00CD163A /* SieveTest.swift */; };
 		0171C24B1B1F4C7300CD163A /* Sieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171C24A1B1F4C7300CD163A /* Sieve.swift */; };
 		0171C24C1B1F4C7300CD163A /* Sieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0171C24A1B1F4C7300CD163A /* Sieve.swift */; };
 		017963441B1DFD890036C714 /* TrinaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017963421B1DFD890036C714 /* TrinaryTest.swift */; };
 		017963461B1DFDB40036C714 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017963451B1DFDB40036C714 /* Trinary.swift */; };
 		017963471B1DFDB40036C714 /* Trinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017963451B1DFDB40036C714 /* Trinary.swift */; };
+		01814D1C1B21F65B00AB6B6A /* LuhnTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01814D1A1B21F65B00AB6B6A /* LuhnTest.swift */; };
+		01814D1F1B21F66E00AB6B6A /* Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01814D1E1B21F66E00AB6B6A /* Luhn.swift */; };
+		01814D201B21F66E00AB6B6A /* Luhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01814D1E1B21F66E00AB6B6A /* Luhn.swift */; };
 		01C2FCEF1B1CE24E00143BC4 /* CryptoSquareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2FCED1B1CE24E00143BC4 /* CryptoSquareTest.swift */; };
 		01C2FCF21B1CE26B00143BC4 /* CryptoSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2FCF11B1CE26B00143BC4 /* CryptoSquare.swift */; };
 		01C2FCF31B1CE26B00143BC4 /* CryptoSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C2FCF11B1CE26B00143BC4 /* CryptoSquare.swift */; };
@@ -203,6 +214,15 @@
 		013752BF1B17578000A40B70 /* RaindropsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaindropsTest.swift; sourceTree = "<group>"; };
 		013752C01B17578000A40B70 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		013752C31B17579800A40B70 /* Raindrops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Raindrops.swift; path = raindrops/Raindrops.swift; sourceTree = SOURCE_ROOT; };
+		0144CE2D1B23C83A009D8DBA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0144CE2E1B23C83A009D8DBA /* SeriesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesTest.swift; sourceTree = "<group>"; };
+		0144CE311B23C853009D8DBA /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Series.swift; path = series/Series.swift; sourceTree = SOURCE_ROOT; };
+		015E43CD1B24A905000BA48B /* PigLatinTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PigLatinTest.swift; sourceTree = "<group>"; };
+		015E43CE1B24A905000BA48B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		015E43D11B24A919000BA48B /* PigLatin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PigLatin.swift; path = "pig-latin/PigLatin.swift"; sourceTree = SOURCE_ROOT; };
+		0161BB661B209B1100E0636F /* OctalTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctalTest.swift; sourceTree = "<group>"; };
+		0161BB671B209B1100E0636F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0161BB6A1B209B2A00E0636F /* Octal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Octal.swift; path = octal/Octal.swift; sourceTree = SOURCE_ROOT; };
 		0169A48E1B175148001FC46E /* PrimeFactorsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactorsTest.swift; sourceTree = "<group>"; };
 		0169A48F1B175148001FC46E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0169A4921B175161001FC46E /* PrimeFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimeFactors.swift; path = "prime-factors/PrimeFactors.swift"; sourceTree = SOURCE_ROOT; };
@@ -212,6 +232,9 @@
 		017963411B1DFD890036C714 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		017963421B1DFD890036C714 /* TrinaryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrinaryTest.swift; sourceTree = "<group>"; };
 		017963451B1DFDB40036C714 /* Trinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trinary.swift; path = trinary/Trinary.swift; sourceTree = SOURCE_ROOT; };
+		01814D1A1B21F65B00AB6B6A /* LuhnTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuhnTest.swift; sourceTree = "<group>"; };
+		01814D1B1B21F65B00AB6B6A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		01814D1E1B21F66E00AB6B6A /* Luhn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Luhn.swift; path = luhn/Luhn.swift; sourceTree = SOURCE_ROOT; };
 		01C2FCED1B1CE24E00143BC4 /* CryptoSquareTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSquareTest.swift; sourceTree = "<group>"; };
 		01C2FCEE1B1CE24E00143BC4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		01C2FCF11B1CE26B00143BC4 /* CryptoSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoSquare.swift; path = "crypto-square/CryptoSquare.swift"; sourceTree = SOURCE_ROOT; };
@@ -301,8 +324,10 @@
 				012E66031B164755003AA1EC /* GradeSchool.swift */,
 				012E66071B164755003AA1EC /* Hamming.swift */,
 				012E660B1B164755003AA1EC /* Leap.swift */,
+				01814D1E1B21F66E00AB6B6A /* Luhn.swift */,
 				012E660F1B164755003AA1EC /* Meetup.swift */,
 				012E66131B164755003AA1EC /* NucleotideCount.swift */,
+				0161BB6A1B209B2A00E0636F /* Octal.swift */,
 				012E66171B164755003AA1EC /* PerfectNumbers.swift */,
 				012E661B1B164755003AA1EC /* PhoneNumber.swift */,
 				0169A4921B175161001FC46E /* PrimeFactors.swift */,
@@ -319,6 +344,8 @@
 				017963451B1DFDB40036C714 /* Trinary.swift */,
 				012E66381B164755003AA1EC /* TwelveDays.swift */,
 				012E663C1B164755003AA1EC /* WordCount.swift */,
+				0144CE311B23C853009D8DBA /* Series.swift */,
+				015E43D11B24A919000BA48B /* PigLatin.swift */,
 			);
 			path = Exercism;
 			sourceTree = "<group>";
@@ -346,16 +373,20 @@
 				012E66021B164755003AA1EC /* grade-school */,
 				012E66061B164755003AA1EC /* hamming */,
 				012E660A1B164755003AA1EC /* leap */,
+				01814D191B21F65B00AB6B6A /* luhn */,
 				012E660E1B164755003AA1EC /* meetup */,
 				012E66121B164755003AA1EC /* nucleotide-count */,
+				0161BB651B209B1100E0636F /* octal */,
 				012E66161B164755003AA1EC /* perfect-numbers */,
 				012E661A1B164755003AA1EC /* phone-number */,
+				015E43CC1B24A905000BA48B /* pig-latin */,
 				0169A48D1B175148001FC46E /* prime-factors */,
 				013752BE1B17578000A40B70 /* raindrops */,
 				0120A4791B1E08540061AD2E /* rna-transcription */,
 				012E661E1B164755003AA1EC /* robot-name */,
 				012E66221B164755003AA1EC /* roman-numerals */,
 				012E66261B164755003AA1EC /* scrabble-score */,
+				0144CE2C1B23C83A009D8DBA /* series */,
 				0171C2451B1F4C5D00CD163A /* sieve */,
 				012E662A1B164755003AA1EC /* space-age */,
 				01042D011B18B7E000C59998 /* strain */,
@@ -584,6 +615,33 @@
 			path = raindrops;
 			sourceTree = SOURCE_ROOT;
 		};
+		0144CE2C1B23C83A009D8DBA /* series */ = {
+			isa = PBXGroup;
+			children = (
+				0144CE2D1B23C83A009D8DBA /* README.md */,
+				0144CE2E1B23C83A009D8DBA /* SeriesTest.swift */,
+			);
+			path = series;
+			sourceTree = SOURCE_ROOT;
+		};
+		015E43CC1B24A905000BA48B /* pig-latin */ = {
+			isa = PBXGroup;
+			children = (
+				015E43CD1B24A905000BA48B /* PigLatinTest.swift */,
+				015E43CE1B24A905000BA48B /* README.md */,
+			);
+			path = "pig-latin";
+			sourceTree = SOURCE_ROOT;
+		};
+		0161BB651B209B1100E0636F /* octal */ = {
+			isa = PBXGroup;
+			children = (
+				0161BB661B209B1100E0636F /* OctalTest.swift */,
+				0161BB671B209B1100E0636F /* README.md */,
+			);
+			path = octal;
+			sourceTree = SOURCE_ROOT;
+		};
 		0169A48D1B175148001FC46E /* prime-factors */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,6 +667,15 @@
 				017963421B1DFD890036C714 /* TrinaryTest.swift */,
 			);
 			path = trinary;
+			sourceTree = SOURCE_ROOT;
+		};
+		01814D191B21F65B00AB6B6A /* luhn */ = {
+			isa = PBXGroup;
+			children = (
+				01814D1A1B21F65B00AB6B6A /* LuhnTest.swift */,
+				01814D1B1B21F65B00AB6B6A /* README.md */,
+			);
+			path = luhn;
 			sourceTree = SOURCE_ROOT;
 		};
 		01C2FCEC1B1CE24E00143BC4 /* crypto-square */ = {
@@ -732,6 +799,7 @@
 				012E668F1B1648AD003AA1EC /* Triangle.swift in Sources */,
 				012E66801B1648AD003AA1EC /* Bob.swift in Sources */,
 				012E668E1B1648AD003AA1EC /* SumOfMultiples.swift in Sources */,
+				01814D1F1B21F66E00AB6B6A /* Luhn.swift in Sources */,
 				012E66881B1648AD003AA1EC /* PerfectNumbers.swift in Sources */,
 				01042D071B18B7F700C59998 /* Strain.swift in Sources */,
 				012E66831B1648AD003AA1EC /* GradeSchool.swift in Sources */,
@@ -740,6 +808,7 @@
 				01042D111B18C00800C59998 /* AtbashCipher.swift in Sources */,
 				012E668A1B1648AD003AA1EC /* RobotName.swift in Sources */,
 				012E66901B1648AD003AA1EC /* TwelveDays.swift in Sources */,
+				015E43D21B24A919000BA48B /* PigLatin.swift in Sources */,
 				012E66911B1648AD003AA1EC /* WordCount.swift in Sources */,
 				012E667E1B1648AD003AA1EC /* Allergies.swift in Sources */,
 				012E668C1B1648AD003AA1EC /* ScrabbleScore.swift in Sources */,
@@ -750,8 +819,10 @@
 				012E667D1B1648AD003AA1EC /* Accumulate.swift in Sources */,
 				012E668D1B1648AD003AA1EC /* SpaceAge.swift in Sources */,
 				01C2FCF21B1CE26B00143BC4 /* CryptoSquare.swift in Sources */,
+				0161BB6B1B209B2A00E0636F /* Octal.swift in Sources */,
 				012E66891B1648AD003AA1EC /* PhoneNumber.swift in Sources */,
 				0120A47F1B1E08810061AD2E /* RnaTranscription.swift in Sources */,
+				0144CE321B23C853009D8DBA /* Series.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,11 +834,13 @@
 				012E66631B164755003AA1EC /* PhoneNumberTest.swift in Sources */,
 				012E66691B164755003AA1EC /* RomanNumerals.swift in Sources */,
 				012E65E51B164526003AA1EC /* BinaryTest.swift in Sources */,
+				015E43CF1B24A905000BA48B /* PigLatinTest.swift in Sources */,
 				012E66501B164755003AA1EC /* GradeSchool.swift in Sources */,
 				012E66731B164755003AA1EC /* SumOfMultiplesTest.swift in Sources */,
 				01042D081B18B7F700C59998 /* Strain.swift in Sources */,
 				012E66661B164755003AA1EC /* RobotName.swift in Sources */,
 				012E66721B164755003AA1EC /* SumOfMultiples.swift in Sources */,
+				01814D201B21F66E00AB6B6A /* Luhn.swift in Sources */,
 				012E666D1B164755003AA1EC /* ScrabbleScoreTest.swift in Sources */,
 				0171C24C1B1F4C7300CD163A /* Sieve.swift in Sources */,
 				012E665D1B164755003AA1EC /* NucleotideCountTest.swift in Sources */,
@@ -782,12 +855,16 @@
 				012E66791B164755003AA1EC /* TwelveDaysTest.swift in Sources */,
 				012E664B1B164755003AA1EC /* EtlTest.swift in Sources */,
 				012E66601B164755003AA1EC /* PerfectNumbersTest.swift in Sources */,
+				0144CE301B23C83A009D8DBA /* SeriesTest.swift in Sources */,
 				012E65E91B164534003AA1EC /* Binary.swift in Sources */,
+				0161BB6C1B209B2A00E0636F /* Octal.swift in Sources */,
 				0120A4801B1E08810061AD2E /* RnaTranscription.swift in Sources */,
 				012E666F1B164755003AA1EC /* SpaceAge.swift in Sources */,
-				0171C2481B1F4C5D00CD163A /* README.md in Sources */,
 				017963441B1DFD890036C714 /* TrinaryTest.swift in Sources */,
 				012E66751B164755003AA1EC /* Triangle.swift in Sources */,
+				0161BB681B209B1100E0636F /* OctalTest.swift in Sources */,
+				015E43D31B24A919000BA48B /* PigLatin.swift in Sources */,
+				0144CE331B23C853009D8DBA /* Series.swift in Sources */,
 				012E666A1B164755003AA1EC /* RomanNumeralsTest.swift in Sources */,
 				0120A47D1B1E08540061AD2E /* RnaTranscriptionTest.swift in Sources */,
 				012E664E1B164755003AA1EC /* GigasecondTest.swift in Sources */,
@@ -800,6 +877,7 @@
 				012E66441B164755003AA1EC /* Anagram.swift in Sources */,
 				012E663F1B164755003AA1EC /* AccumulateTest.swift in Sources */,
 				01042D0D1B18BFE300C59998 /* AtbashTest.swift in Sources */,
+				01814D1C1B21F65B00AB6B6A /* LuhnTest.swift in Sources */,
 				013752C11B17578000A40B70 /* RaindropsTest.swift in Sources */,
 				012E664D1B164755003AA1EC /* Gigasecond.swift in Sources */,
 				01C2FCEF1B1CE24E00143BC4 /* CryptoSquareTest.swift in Sources */,
